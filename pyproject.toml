@@ -1,0 +1,14 @@
+[project]
+name = "language-tpp"
+version = "0.1.0"
+description = "Source code for paper 'Language-TPP: Integrating Temporal Point Processes with Language Models for Event Analysis'"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.4.0",
+    "modelscope>=1.23.0",
+    "numpy>=2.2.3",
+    "packaging>=24.2",
+    "torch>=2.6.0",
+    "transformers>=4.49.0",
+]
